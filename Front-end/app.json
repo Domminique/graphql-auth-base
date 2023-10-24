@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "saina",
+    "slug": "saina",
+    "version": "1.0.6",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "saina",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#242760"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.imbuga.saina"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#6a5b5a"
+      },
+   
+      "package": "com.imbuga.saina",
+      "versionCode": 7,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCc8D8J2OKuXTmL2WIqBcu6181HGVRXako"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5551e31e-2158-43de-984a-80977ac5584f"
+      }
+    }
+  }
+}
